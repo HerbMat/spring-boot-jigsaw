@@ -1,0 +1,7 @@
+apply plugin: 'application'
+mainClassName = 'com.reactive.catering.app.CateringApplication'
+javaModule.name = 'com.reactive.catering.app'
+
+dependencies {
+    compile project(':domain')
+}
